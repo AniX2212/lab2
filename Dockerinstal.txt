@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+FROM python:3
+COPY opendocker.py /
+COPY Docker.docx /
+RUN pip instal flask 
+RUN pip instal python-docx
+=======
+FROM python:3
+COPY opendocker.py /
+COPY Docker.docx /
+RUN pip instal flask 
+RUN pip instal python-docx
+>>>>>>> 8dcfd5a5c15720480a25c4996abe6461aea1b6c0
+CMD ["python", "opendocker.py"]
